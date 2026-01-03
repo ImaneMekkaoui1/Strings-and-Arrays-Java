@@ -39,9 +39,9 @@ This program works with French verbs of the first group (verbs ending with “-e
 The user enters a verb, and the program verifies whether it belongs to the first group. If valid, the verb is conjugated in the present tense.
 The program removes the suffix “er” and adds the correct endings for each personal pronoun.
 ### Operations Included
-1- Validation of verb type
-2- Root extraction
-3- Present tense conjugation
+1. Validation of verb type
+2. Root extraction
+3. Present tense conjugation
 ### Key Concepts Used
 -String manipulation
 -Conditional logic
@@ -55,20 +55,20 @@ The program removes the suffix “er” and adds the correct endings for each pe
 ## Exercise 3: String Operations Menu
 ### Problem
 The program provides a menu to perform operations on a string:
-> Enter a string
-> Display it
-> Reverse it
-> Count the number of words
+. Enter a string
+. Display it
+. Reverse it
+. Count the number of words
 ### Solution
 A menu is implemented using `switch`.  
 `StringBuilder` is used to reverse the string.  
 The number of words is calculated using `split()`.
 
 ### Operations Included
-1- Entering a string
-2- Displaying the string
-3- Reversing the string
-4- Counting the number of words
+1. Entering a string
+2. Displaying the string
+3. Reversing the string
+4. Counting the number of words
 ### Key Concepts Used
 - Menu-based programming
 - Loops and switch statements
@@ -87,9 +87,9 @@ A 26-element integer array is used.
 Each character is converted to uppercase and counted using its alphabetical index.
 
 ### Operations Included
-1- Case normalization
-2- Letter frequency counting
-3- Displaying results
+1. Case normalization
+2. Letter frequency counting
+3. Displaying results
 ### Key Concepts Used
 - Character processing
 - Arrays as counters
@@ -97,3 +97,7 @@ Each character is converted to uppercase and counted using its alphabetical inde
 ### Execution
 
 ![Execution Exercise 4](Screenshots/Execution4.png)
+
+### Conclusion
+
+To conclude, this practical assignment was a valuable opportunity to apply core Java principles to real-world scenarios. By developing these four applications, I have enhanced my proficiency in array management, string-based algorithms, and creating interactive user interfaces.
