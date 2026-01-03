@@ -75,10 +75,12 @@ The number of words is calculated using `split()`.
 - String manipulation techniques
 ### Execution
 ![Execution Exercise 3 - Menu](Screenshots/ExecutionMenu1.png)
+
 ![Execution Exercise 3 - Word Count](Screenshots/ExecutionMenu2.png)
+
 ![Execution Exercise 3 - Word Count](Screenshots/ExecutionMenu3.png)
 
-### Exercise 4:
+### Exercise 4: Letter Occurrence Counter
 ### Problem
 The program counts the occurrences of each alphabet letter in a string, without distinguishing between uppercase and lowercase letters.
 
