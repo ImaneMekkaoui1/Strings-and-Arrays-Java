@@ -43,9 +43,9 @@ The program removes the suffix “er” and adds the correct endings for each pe
 2. Root extraction
 3. Present tense conjugation
 ### Key Concepts Used
--String manipulation
--Conditional logic
--User input handling
+- String manipulation
+- Conditional logic
+- User input handling
 ### Execution
 ![Execution Exercise 2](Screenshots/Execution2.png)
 
