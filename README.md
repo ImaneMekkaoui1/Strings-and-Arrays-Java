@@ -60,7 +60,7 @@ Ensures only first-group verbs are conjugated
 
 Provides informative message for invalid input
 
-#### Why this approach?
+#### Approach:
 
 Clear separation of input validation and conjugation logic
 
@@ -99,7 +99,7 @@ The number of words is calculated using `split()`.
 
 . trim() ensures no extra spaces affect the count
 
-#### Why this approach?
+#### Approach:
 . Modular design, easy to extend with new operations
 
 . Efficient built-in Java methods minimize code complexity
@@ -142,7 +142,7 @@ Convert input to uppercase (toUpperCase()) for uniform counting
 
 Loop through string and increment corresponding counter
 
-#### Why this approach?
+#### Approach:
 
 . Simple, memory-efficient, avoids using maps or additional data structures
 
