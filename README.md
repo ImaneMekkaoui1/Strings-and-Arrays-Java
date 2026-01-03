@@ -57,20 +57,20 @@ The program reads a French verb of the first group and displays its conjugation 
 This program works with French verbs of the first group (verbs ending with “-er”).
 The user enters a verb, and the program verifies whether it belongs to the first group. If valid, the verb is conjugated in the present tense.
 The program removes the suffix “er” and adds the correct endings for each personal pronoun.
-## String Manipulation:
+#### String Manipulation:
 Check verb ending with -er using endsWith()
 
 Extract root using substring()
 
 Add appropriate suffixes for each pronoun
 
-## Validation and Error Handling:
+#### Validation and Error Handling:
 
 Ensures only first-group verbs are conjugated
 
 Provides informative message for invalid input
 
-## Why this approach?
+#### Why this approach?
 
 Clear separation of input validation and conjugation logic
 
