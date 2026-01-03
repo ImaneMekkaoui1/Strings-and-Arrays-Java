@@ -13,22 +13,13 @@ Calculate and display the average grade.
 Identify the highest and lowest grades.
 Search for a specific grade and display how many students achieved it.
 
-### Data Structure Choice:
-double[] grades = new double[n];
+### Performance: 
+. Primitive arrays provide direct memory access with zero object overhead 
+. Making the solution both memory-efficient and fast.
 
-Why double[]?
-
-Grades can include decimals (e.g., 15.5, 12.75)
-
-double provides more precision than float for statistical calculations
-
-Primitive arrays offer direct memory access with no object overhead
-
-### Why this approach?
-
-Simple, memory-efficient, precise for calculations
-
-Easy to implement and understand
+### Approach:
+. This method was chosen for its simplicity and reliability
+. Offering a straightforward way to implement sorting and searching algorithms.
 ### The operations include:
 1. Sorting grades in ascending order
 2. Calculating the average grade
