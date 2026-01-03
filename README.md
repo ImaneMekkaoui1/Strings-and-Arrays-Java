@@ -75,10 +75,7 @@ Provides informative message for invalid input
 Clear separation of input validation and conjugation logic
 
 Efficient and readable for educational purposes
-### Operations Included
-1. Validation of verb type
-2. Root extraction
-3. Present tense conjugation
+
 ### Key Concepts Used
 - String manipulation
 - Conditional logic
@@ -97,9 +94,25 @@ The program provides a menu to perform operations on a string:
 . Reverse it
 . Count the number of words
 ### Solution
+
 A menu is implemented using `switch`.  
 `StringBuilder` is used to reverse the string.  
 The number of words is calculated using `split()`.
+#### Menu-based Structure:
+. do-while loop with switch statement for repeated user operations
+
+#### String Reversal:
+. Uses StringBuilder.reverse() for efficiency and simplicity
+
+#### Word Counting:
+. Split string using split("\\s+") to handle multiple spaces
+
+. trim() ensures no extra spaces affect the count
+
+#### Why this approach?
+. Modular design, easy to extend with new operations
+
+. Efficient built-in Java methods minimize code complexity
 
 ### Operations Included
 1. Entering a string
@@ -124,6 +137,26 @@ The program counts the occurrences of each alphabet letter in a string, without 
 ### Solution
 A 26-element integer array is used.  
 Each character is converted to uppercase and counted using its alphabetical index.
+
+#### Array as Counter:
+
+. 26-element integer array to track each letter’s frequency
+
+. Index calculation: char - 'A'
+
+#### Case Normalization:
+
+Convert input to uppercase (toUpperCase()) for uniform counting
+
+#### Iterative Traversal:
+
+Loop through string and increment corresponding counter
+
+#### Why this approach?
+
+. Simple, memory-efficient, avoids using maps or additional data structures
+
+. Handles both uppercase and lowercase letters transparently
 
 ### Operations Included
 1. Case normalization
