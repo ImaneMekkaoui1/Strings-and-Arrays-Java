@@ -13,13 +13,6 @@ Calculate and display the average grade.
 Identify the highest and lowest grades.
 Search for a specific grade and display how many students achieved it.
 
-### Performance: 
-- Primitive arrays provide direct memory access with zero object overhead 
-- Making the solution both memory-efficient and fast.
-
-### Approach:
-- This method was chosen for its simplicity and reliability
-- Offering a straightforward way to implement sorting and searching algorithms.
 ### The operations include:
 1. Sorting grades in ascending order
 2. Calculating the average grade
@@ -31,7 +24,13 @@ Search for a specific grade and display how many students achieved it.
 - Loops for data processing
 - Use of Java utility methods for sorting
 
+### Performance: 
+- Primitive arrays provide direct memory access with zero object overhead 
+- Making the solution both memory-efficient and fast.
 
+### Approach:
+- This method was chosen for its simplicity and reliability
+- Offering a straightforward way to implement sorting and searching algorithms.
 
 ### Execution
 ![Execution Exercise 1](Screenshots/Execution1.png)
