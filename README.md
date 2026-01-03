@@ -6,14 +6,14 @@ Class: 1-SDIA
 This repository contains Java solutions for the practical work on Strings and Arrays. It includes four exercises focusing on array manipulation, string processing, and menu-driven applications.
 
 ### Exercise 1: Student Grades Management
-###Problem Description
+### Problem Description
 The goal is to write a Java program that stores student grades in an array and performs the following operations:
 Sort and display the list of grades.
 Calculate and display the average grade.
 Identify the highest and lowest grades.
 Search for a specific grade and display how many students achieved it.
 
-###Solution
+### Solution
 ```java
 import java.util.*;
 public class StudentGrade {
@@ -41,7 +41,8 @@ public class StudentGrade {
         }
         System.out.println("Number of students with grade " + search + ": " + count);
     }
-} ```
+}
+```
 ### Execution
 ![Execution Exercise 1](Screenshots/StudentGrades.png)
 
@@ -77,7 +78,8 @@ public class VerbConjugator {
             System.out.println("This is not a first-group verb.");
         }
     }
-} ```
+}
+```
 ### Execution
 ![Execution Exercise 2](Screenshots/verbConjugator.png)
 
@@ -134,7 +136,8 @@ public class StringMenu {
             }
         } while (choice != 5);
     }
-} ```
+}
+```
 ### Execution
 ![Execution Exercise 3 - Menu](Screenshots/StringClass.png)
 ![Execution Exercise 3 - Word Count](Screenshots/StringClass2.png)
@@ -171,7 +174,8 @@ public class CharFrequency {
             }
         }
     }
-} ```
+}
+```
 ### Execution
 
 ![Execution Exercise 4](Screenshots/CharFrequency.png)
