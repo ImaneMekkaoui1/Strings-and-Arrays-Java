@@ -23,6 +23,12 @@ Grades can include decimals (e.g., 15.5, 12.75)
 double provides more precision than float for statistical calculations
 
 Primitive arrays offer direct memory access with no object overhead
+
+### Why this approach?
+
+Simple, memory-efficient, precise for calculations
+
+Easy to implement and understand
 ### The operations include:
 1. Sorting grades in ascending order
 2. Calculating the average grade
@@ -35,6 +41,7 @@ Primitive arrays offer direct memory access with no object overhead
 - Use of Java utility methods for sorting
 
 
+
 ### Execution
 ![Execution Exercise 1](Screenshots/Execution1.png)
 
@@ -45,10 +52,29 @@ Primitive arrays offer direct memory access with no object overhead
 ### Problem
 The program reads a French verb of the first group and displays its conjugation in the present tense.
 
-### Solution
+### Solution and Technical Justifications
+
 This program works with French verbs of the first group (verbs ending with “-er”).
 The user enters a verb, and the program verifies whether it belongs to the first group. If valid, the verb is conjugated in the present tense.
 The program removes the suffix “er” and adds the correct endings for each personal pronoun.
+## String Manipulation:
+Check verb ending with -er using endsWith()
+
+Extract root using substring()
+
+Add appropriate suffixes for each pronoun
+
+## Validation and Error Handling:
+
+Ensures only first-group verbs are conjugated
+
+Provides informative message for invalid input
+
+## Why this approach?
+
+Clear separation of input validation and conjugation logic
+
+Efficient and readable for educational purposes
 ### Operations Included
 1. Validation of verb type
 2. Root extraction
