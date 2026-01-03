@@ -12,6 +12,16 @@ Sort and display the list of grades.
 Calculate and display the average grade.
 Identify the highest and lowest grades.
 Search for a specific grade and display how many students achieved it.
+### The operations include:
+1. Sorting grades in ascending order
+2. Calculating the average grade
+3. Identifying the minimum and maximum grades
+4. Searching for a specific grade and counting how many students obtained it
+### Key Concepts Used:
+- Arrays for storing numerical data
+- Scanner for reading user input
+- Loops for data processing
+- Use of Java utility methods for sorting
 
 ### Solution
 ```java
