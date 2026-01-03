@@ -12,6 +12,13 @@ Sort and display the list of grades.
 Calculate and display the average grade.
 Identify the highest and lowest grades.
 Search for a specific grade and display how many students achieved it.
+
+### Data Structure Choice:
+double[] grades = new double[n];
+Why double[]?
+Grades can include decimals (e.g., 15.5, 12.75)
+double provides more precision than float for statistical calculations
+Primitive arrays offer direct memory access with no object overhead
 ### The operations include:
 1. Sorting grades in ascending order
 2. Calculating the average grade
