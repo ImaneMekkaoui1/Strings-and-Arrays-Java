@@ -25,7 +25,8 @@ Search for a specific grade and display how many students achieved it.
 
 
 ### Execution
-![Execution Exercise 1](Screenshots/StudentGrades.png)
+![Execution Exercise 1](Screenshots/Execution1.png)
+
 
 
 ### Exercise 2: First Group Verb Conjugation
@@ -46,7 +47,7 @@ The program removes the suffix “er” and adds the correct endings for each pe
 -Conditional logic
 -User input handling
 ### Execution
-![Execution Exercise 2](Screenshots/verbConjugator.png)
+![Execution Exercise 2](Screenshots/Execution2.png)
 
 
 
@@ -73,8 +74,9 @@ The number of words is calculated using `split()`.
 - Loops and switch statements
 - String manipulation techniques
 ### Execution
-![Execution Exercise 3 - Menu](Screenshots/StringClass.png)
-![Execution Exercise 3 - Word Count](Screenshots/StringClass2.png)
+![Execution Exercise 3 - Menu](Screenshots/ExecutionMenu1.png)
+![Execution Exercise 3 - Word Count](Screenshots/ExecutionMenu2.png)
+![Execution Exercise 3 - Word Count](Screenshots/ExecutionMenu3.png)
 
 ### Exercise 4:
 ### Problem
@@ -94,4 +96,4 @@ Each character is converted to uppercase and counted using its alphabetical inde
 - Iterative traversal of strings
 ### Execution
 
-![Execution Exercise 4](Screenshots/CharFrequency.png)
+![Execution Exercise 4](Screenshots/Execution4.png)
